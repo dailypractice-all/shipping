@@ -3,7 +3,7 @@ pipeline {
   stages {
 
 
-    stage ('Compile & Build Code') {
+    stage ('Compile & Package Code') {
       steps {
         sh 'mvn clean build'
       }
