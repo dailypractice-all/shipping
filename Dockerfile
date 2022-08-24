@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
-RUN  adduser -D roboshop1
-RUN mkdir /app
-RUN chown roboshop /app
+RUN  adduser -D roboshop
+RUN  mkdir /app
+RUN  chown roboshop /app
 WORKDIR /app
 USER roboshop
 
